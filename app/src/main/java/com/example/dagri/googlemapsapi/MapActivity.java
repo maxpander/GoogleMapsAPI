@@ -67,8 +67,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 // https://developers.google.com/maps/documentation/android-api/infowindows#benutzerdefinierte_info-fenster
                 // TODO : ZIEH UND KLICK EREIGNISSE ERWARTEN?!
         );
-        // TODO : MEHRERE TOLLE PUNKTE ERSTELLEN
-        // TODO : LINIEN, POLYGONE UND KREISE ERSTELLEN
+        // TODO : IRGENDWELCHE TOLLEN EFEKTE MIT DEN ELEMENTEN FUER DIE PRAESENTATION BAUEN
         // https://developers.google.com/maps/documentation/android-api/shapes#polygone
 
         // Instantiates a new Polyline object and adds points to define a rectangle
@@ -96,8 +95,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         // Instantiates a new CircleOptions object and defines the center and radius
         CircleOptions circleOptions = new CircleOptions()
                 .center(new LatLng(-34.4, 155.1))
-                .radius(1000);
-        // In meters
+                .radius(1000); // In meters
 
 // Get back the mutable Circle
         Circle circle = mMap.addCircle(circleOptions);
